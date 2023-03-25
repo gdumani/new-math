@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from './Button';
 
 const Calculator = () => {
   const [state] = useState({
@@ -6,29 +7,37 @@ const Calculator = () => {
   });
   const { total } = state;
   const disp = `${total}`;
+  const buttons = [
+    { lbl: 'AC' },
+    { lbl: '+/-' },
+    { lbl: '%' },
+    { lbl: '÷', cl: 'colored' },
+    { lbl: '7' },
+    { lbl: '8' },
+    { lbl: '9' },
+    { lbl: 'x', cl: 'colored' },
+    { lbl: '4' },
+    { lbl: '5' },
+    { lbl: '6' },
+    { lbl: '-', cl: 'colored' },
+    { lbl: '1' },
+    { lbl: '2' },
+    { lbl: '3' },
+    { lbl: '+', cl: 'colored' },
+    { lbl: '0', cl: 'double' },
+    { lbl: ',' },
+    { lbl: '=', cl: 'colored' },
+  ];
 
   return (
     <div className="calc">
       <span>{disp}</span>
-      <button type="button">AC</button>
-      <button type="button">+/-</button>
-      <button type="button">%</button>
-      <button type="button" className="colored">÷</button>
-      <button type="button">7</button>
-      <button type="button">8</button>
-      <button type="button">9</button>
-      <button type="button" className="colored">x</button>
-      <button type="button">4</button>
-      <button type="button">5</button>
-      <button type="button">6</button>
-      <button type="button" className="colored">-</button>
-      <button type="button">1</button>
-      <button type="button">2</button>
-      <button type="button">3</button>
-      <button type="button" className="colored">+</button>
-      <button type="button" className="double">0</button>
-      <button type="button">.</button>
-      <button type="button" className="colored">=</button>
+      {buttons.map((btn, i) => {
+        const k = i;
+        const { lbl, cl } = btn;
+        return (
+          <Button key={k} lbl={lbl} cl={cl} />);
+      })}
     </div>
   );
 };
