@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import Button from './Button';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [state] = useState({
-    total: 0,
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
   });
-  const { total } = state;
-  const disp = `${total}`;
+
+  const { total, next, operation } = state;
+  const disp = `${total || ''}${operation || ''}${next || ''}`;
   const buttons = [
     { lbl: 'AC' },
     { lbl: '+/-' },
@@ -25,9 +29,11 @@ const Calculator = () => {
     { lbl: '3' },
     { lbl: '+', cl: 'colored' },
     { lbl: '0', cl: 'double' },
-    { lbl: ',' },
+    { lbl: '.' },
     { lbl: '=', cl: 'colored' },
   ];
+
+  const handleClick = (e) => setState(calculate(state, e.target.textContent));
 
   return (
     <div className="calc">
@@ -36,7 +42,15 @@ const Calculator = () => {
         const k = i;
         const { lbl, cl } = btn;
         return (
-          <Button key={k} lbl={lbl} cl={cl} />);
+          <Button
+            key={k}
+            lbl={lbl}
+            cl={cl}
+            // state={state}
+            // setState={setState}
+            onClick={handleClick}
+          />
+        );
       })}
     </div>
   );
