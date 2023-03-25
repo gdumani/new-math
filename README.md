@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
 
 <!--
@@ -30,7 +31,7 @@ After you're finished please remove all the comments and instructions!
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/> -->
 
-  <h3><b>My Math Magician</b></h3>
+  <h3><b>Math Magician</b></h3>
 
 </div>
 
@@ -50,6 +51,7 @@ After you're finished please remove all the comments and instructions!
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features ](#-future-features-)
 - [🤝 Contributing](#contributing)
 - [📝 License](#license)
 
@@ -166,13 +168,25 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> Here is a mention all of the collaborators of this project.
 
 👤 **Giancarlo Dumani**
 
 - GitHub: [@gdumani](https://github.com/gdumani)
 - Twitter: [@gdumani1](https://twitter.com/gdumani1)
 - LinkedIn: [ Giancarlo-Dumani](https://www.linkedin.com/in/gdumani/?originalSubdomain=cr)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> The following are the future features that will be added to the project.
+
+- [ ] **[Add random quotes from an API]**
+- [ ] **[Integrate routing as an SPA]**
+- [ ] **[Improve styling]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
