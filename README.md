@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
 
 <!--
@@ -30,7 +31,7 @@ After you're finished please remove all the comments and instructions!
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/> -->
 
-  <h3><b>My Math Magician</b></h3>
+  <h3><b>Math Magician</b></h3>
 
 </div>
 
@@ -42,6 +43,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -50,8 +52,12 @@ After you're finished please remove all the comments and instructions!
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
+
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -90,7 +96,15 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -166,13 +180,25 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+> Here is a mention all of the collaborators of this project.
 
 👤 **Giancarlo Dumani**
 
 - GitHub: [@gdumani](https://github.com/gdumani)
 - Twitter: [@gdumani1](https://twitter.com/gdumani1)
 - LinkedIn: [ Giancarlo-Dumani](https://www.linkedin.com/in/gdumani/?originalSubdomain=cr)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> The following are the future features that will be added to the project.
+
+- [ ] **[Add random quotes from an API]**
+- [ ] **[Integrate routing as an SPA]**
+- [ ] **[Improve styling]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -204,6 +230,6 @@ Feel free to check the [issues page](../../issues/).
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
