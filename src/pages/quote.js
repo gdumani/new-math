@@ -1,10 +1,10 @@
 import React from 'react';
-import CurrentQuote from '../components/CurrentQuotes';
+import Quotes from '../components/Quotes';
 import '../style/quotes.css';
 
 const Quote = () => (
   <div className="quotes">
-    <CurrentQuote />
+    <Quotes />
   </div>
 );
 
