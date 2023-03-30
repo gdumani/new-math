@@ -92,7 +92,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[Make simple calculations.]**
-- **[Read a random math-related quote.]**
+- **[Read a random education-related quotes from an API .]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,9 +196,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 > The following are the future features that will be added to the project.
 
-- [ ] **[Add random quotes from an API]**
-- [ ] **[Integrate routing as an SPA]**
-- [ ] **[Improve styling]**
+- [ ] **[Live Demo on the Internet]**
+- [ ] **[Create a test suite for all components ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -230,6 +229,5 @@ Feel free to check the [issues page](../../issues/).
 
 This project is [MIT](./LICENSE) licensed.
 
-<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
