@@ -28,8 +28,8 @@ const Quotes = () => {
   if (err) return <div> No quotes available</div>;
   return (
     <div>
-      <p className="quote">{quote[0].quote}</p>
-      <p className="autor">{quote[0].author}</p>
+      <p className="phrase">{quote[0].quote}</p>
+      <p className="author">{quote[0].author}</p>
     </div>
   );
 };
