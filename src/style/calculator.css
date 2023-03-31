@@ -1,16 +1,8 @@
-.App {
-  text-align: center;
-}
-
 .calc {
   margin: auto;
   display: grid;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   grid-template-columns: repeat(4, 1fr);
-  width: 20rem;
+  width: 30rem;
   grid-auto-rows: 3rem;
 }
 
@@ -19,7 +11,7 @@
   text-align: right;
   background-color: dimgray;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .double {
@@ -32,9 +24,4 @@
 
 button {
   cursor: pointer;
-}
-
-.quote {
-  margin: auto;
-  max-width: 500px;
 }
